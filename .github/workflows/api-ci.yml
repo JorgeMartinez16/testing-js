@@ -1,5 +1,5 @@
 name: API CI
-#on: [push] ffff
+#on: [push]
 on:
   push:
       - "./api/**"
