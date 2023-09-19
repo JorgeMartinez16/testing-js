@@ -1,11 +1,11 @@
 name: API CI
+
 #on: [push]
 on:
   push:
+    paths:
       - "./api/**"
       - ".github/workflows/api-ci.yml"
-
-
 
 
 defaults:
@@ -30,4 +30,3 @@ jobs:
       - name: run unit test
         shell: bash
         run: npm run test
-
