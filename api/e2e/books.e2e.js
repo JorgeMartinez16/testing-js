@@ -39,7 +39,7 @@ describe('Test for books', () => {
       .then(({ body }) => {
         console.log(body);
         // Assert
-        expect(body.length).toEqual(fakeBooks.length);
+        expect(body.length).toEqual(fakeBooks.l);
       });
     });
   });
