@@ -22,8 +22,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
-          cache: 'npm'
-          cache-dependecy-path: /.api/package-lock.js
+          cache: npm
+          cache-dependency-path: /.api/package-lock.js
       - name: install
         shell: bash
         run: npm ci
