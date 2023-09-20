@@ -30,7 +30,6 @@ jobs:
       - name: run linter
         shell: bash
         run: npm run lint
-jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
