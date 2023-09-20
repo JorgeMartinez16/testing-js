@@ -32,7 +32,7 @@ jobs:
         run: npm run test
 
 jobs:
-  static-test:
+  linter:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -46,6 +46,6 @@ jobs:
       - name: install
         shell: bash
         run: npm ci
-      - name: run lint test
+      - name: run linter
         shell: bash
         run: npm run lint
